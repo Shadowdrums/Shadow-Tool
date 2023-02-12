@@ -72,7 +72,7 @@ def LoadConfig():
 			# finally we Load defaults, if no config file exists
 			CONFIG	=	{
 			# target IP address (should be a testing router/firewall)
-			"TARGET_IP"		:	"172.19.180.52",
+			"TARGET_IP"		:	"FF.FF.FF.FF",
 			# the target port u want to flood
 			"TARGET_PORT"	:	80,
 					}
