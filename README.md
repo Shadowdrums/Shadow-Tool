@@ -24,6 +24,8 @@ from the owner of the device(s).
 
 Shadow-Tool:
 
+Shadow-Tool.py is the used for the Shadow-Tool Terminal
+
 Shadow-Tool is a all in one terminal capable of running several programs from within the terminal.
 You can also edit and save your edits for 3 of the programs all from the terminal.
 
