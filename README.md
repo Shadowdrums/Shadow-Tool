@@ -61,7 +61,7 @@ To use client and server:
 Server must run on your host device, the ip and port for both server and client must match
 and the IP that must be used is the IP for the Host device.
 
-Client.y can be edited and run from Shadow-Tool Terminal but Client.pyw ip and port
+Client.py can be edited and run from Shadow-Tool Terminal but Client.pyw ip and port
 will have to be changed maunally in its script. Move-Client.py will move
 Client.pyw to Target devices Start up folder and will run in a hidden window.
 
