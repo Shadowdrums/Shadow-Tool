@@ -216,7 +216,7 @@ CONFIG	=	{
 		"configpath"	:	"./SYNflood.shadow",
 		"current"		:	{},
 		"defaults"		:	{
-			"TARGET_IP"		:	"172.19.180.52",	# target IP address (should be a testing router/firewall)
+			"TARGET_IP"		:	"FF.FF.FF.FF",	# target IP address (should be a testing router/firewall)
 			"TARGET_PORT"	:	80,					# the target port u want to flood
 							},
 					},
