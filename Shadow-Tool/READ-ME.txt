@@ -80,6 +80,14 @@ Move-Client:
 Move-Client will move the Client.pyw to target device start up folder and will run client in 
 a hidden window when the computer is started up and logged into.
 
+Enable-RDP:
+
+This option will enable remote desktop on target device.
+
+Laptop Keep Alive:
+
+This will make the target laptop do nothing when the lid is closed. This will keep the laptop on and running while lid is closed so connections can still be made.
+
 Notes:
 
 Updates will be made to this in the future for more functionality.
