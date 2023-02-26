@@ -903,6 +903,9 @@ def PrintHelp():
 	CenteredText("/M /move-client : will move the Client")
 	CenteredText("/R /RDP : will enable remote desktop")
 	CenteredText("/K /laptop : will keep laptop on if lid is closed")
+	CenteredText("/N /sniffer : will sniff and monitor your network on your device")
+	CenteredText("/B /blocker : Will start IP and PORT blocking in and out for firewall")
+	CenteredText("/P /lockpick : will start LockPick")
 	#CenteredText("/L /load   : Load configurations for scripts")
 	print("")
 	CenteredText("/E /edit   : Edit configurations for scripts")
@@ -932,6 +935,12 @@ def MainMenu(CONFIG=CONFIG):
                 "/RDP": "enable-RDP.py",
                 "/K": "laptopKeepAlive.py",
                 "/laptop": "laptopKeepAlive.py",
+                "/N": "Sniffer.py",
+                "/sniffer": "Sniffer.py",
+                "/B": "Blocker.py",
+                "/blocker": "Blocker.py",
+                "/P": "LockPick.py",
+                "/lockpick": "LockPick.py",
 		}
 	#
 	# ROUTINES which get launched as ShadowConfig functions
