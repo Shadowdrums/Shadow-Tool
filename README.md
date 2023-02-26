@@ -92,7 +92,22 @@ This option will enable remote desktop on target device.
 
 This will make the target laptop do nothing when the lid is closed. This will keep the laptop on and running while lid is closed so connections can still be made.
 
-Notes:
+#### Sniffer:
+
+Sniffer uses scapy to act like wire shark in the terminal and look for specific trypes of traffic.
+it also makes a .txt file recording the suspicious activity for back up. Note: not 100% effective
+due to static traffic getting caught in the mix but it can still help with security.
+
+#### Blocker:
+
+Blocker takes a target IP and will create and update a new inbound and outbound fire wall rule to block
+that target IP on every port.
+
+#### LockPick:
+
+LockPick is a brute force wifi network scanner and password breaker. Note: this is not reliable and takes forever but it is for proof of concept.
+
+#### Notes:
 
 Updates will be made to this in the future for more functionality.
 
