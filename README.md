@@ -112,7 +112,7 @@ that target IP on every port.
 
 LockPick is a brute force wifi network scanner and password breaker. Note: this is not reliable and takes forever but it is for proof of concept.
 
-####Rescource-Monitor:
+#### Rescource-Monitor:
 
 This tool will give you a live update on cpu usage, ram usage, SSD and HDD usage, bandwitdth usage,
 cpu temp, current power status, and uptime.
