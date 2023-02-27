@@ -117,6 +117,10 @@ LockPick is a brute force wifi network scanner and password breaker. Note: this 
 This tool will give you a live update on cpu usage, ram usage, SSD and HDD usage, bandwitdth usage,
 cpu temp, current power status, and uptime.
 
+#### Install:
+
+This will Install the required libraries and update pip for you.
+
 #### Notes:
 
 Updates will be made to this in the future for more functionality.
