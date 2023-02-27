@@ -4,6 +4,14 @@ import time
 target_ip = get_if_addr(conf.iface) # Use host IP as target
 print("Monitoring network for suspicious traffic...")
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
+filename = "suspicious_traffic.txt"
+
+file_path = os.path.join(dir_path, filename)
+if not os.path.exists(file_path):
+    open(file_path, "a").close()
+
 # Open output file
 with open("suspicious_traffic.txt", "a") as f:
     # Start an infinite loop
