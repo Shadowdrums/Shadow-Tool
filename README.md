@@ -31,13 +31,13 @@ of this program. ONLY USE shadow-tool on your own device(s) or have DOCUMENTED P
 
 
 ## Requirements
-
+   
 1. To be able to run Shadow-Tool you will need python3.
 
 2. After Installing Python3, update pip via: 
-   ```sh
+  ```sh
   PS> python.exe -m pip install --upgrade pip
-   ```
+  ```
 
 3. Scapy will also be required for one of the deplyable programs to get scapy you must use pip:
    ```sh
