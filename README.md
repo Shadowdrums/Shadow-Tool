@@ -36,7 +36,7 @@ of this program. ONLY USE shadow-tool on your own device(s) or have DOCUMENTED P
 
 2. After Installing Python3, update pip via: 
    ```sh
-   python -m pip install --upgrade pip
+  PS> python.exe -m pip install --upgrade pip
    ```
 
 3. Scapy will also be required for one of the deplyable programs to get scapy you must use pip:
