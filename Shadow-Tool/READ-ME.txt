@@ -45,7 +45,10 @@ Rescources Required for Shadow-Tool:
    PS> python.exe -m pip install --upgrade pip
 
 3. Scapy will also be required for one of the deplyable programs to get scapy you must use pip:
-   PS> pip install scapy 
+   PS> python.exe -m pip install scapy 
+
+4. you will also need psutil for Rescource-Monitor:
+    PS> python.exe -m pip install psutil
 
 How To Use:
 
