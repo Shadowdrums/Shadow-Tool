@@ -910,6 +910,7 @@ def PrintHelp():
 	#CenteredText("/L /load   : Load configurations for scripts")
 	print("")
 	CenteredText("/E /edit   : Edit configurations for scripts")
+	CenteredText("/D /install : installs dependencies for ShadowTool ")
 # /PrintHelp
 
 
@@ -944,6 +945,8 @@ def MainMenu(CONFIG=CONFIG):
                 "/lockpick": "LockPick.py",
                 "/U": "Rescource-Monitor.py",
                 "/utility": "Rescource-Monitor.py",
+                "/D": "Install.py",
+                "/install": "Install.py",
 		}
 	#
 	# ROUTINES which get launched as ShadowConfig functions
