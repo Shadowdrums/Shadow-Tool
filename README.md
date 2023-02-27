@@ -39,9 +39,14 @@ of this program. ONLY USE shadow-tool on your own device(s) or have DOCUMENTED P
    python -m pip install --upgrade pip
    ```
 
-3. Scapy will also be required for one of the deplyable programs. You can get scapy with pip:
+3. Scapy will also be required for one of the deplyable programs to get scapy you must use pip:
    ```sh
-   pip install scapy
+   PS> python.exe -m pip install scapy 
+   ```
+
+4. you will also need psutil for Rescource-Monitor:
+   ```sh
+   PS> python.exe -m pip install psutil
    ```
 
 ## Usage
@@ -106,6 +111,11 @@ that target IP on every port.
 #### LockPick:
 
 LockPick is a brute force wifi network scanner and password breaker. Note: this is not reliable and takes forever but it is for proof of concept.
+
+####Rescource-Monitor:
+
+This tool will give you a live update on cpu usage, ram usage, SSD and HDD usage, bandwitdth usage,
+cpu temp, current power status, and uptime.
 
 #### Notes:
 
