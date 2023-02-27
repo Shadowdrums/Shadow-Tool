@@ -167,12 +167,12 @@ WINNT_CONSOLE_COLORS={
 	"White"			:	"7",
 	"Gray"			:	"8",
 	"LightBlue"		:	"9",
-	"LightGreen"	:	"A",
+	"LightGreen"	        :	"A",
 	"LightAqua"		:	"B",
 	"LightRed"		:	"C",
-	"LightPurple"	:	"D",
-	"LightYellow"	:	"E",
-	"BrightWhite"	:	"F",
+	"LightPurple"	        :	"D",
+	"LightYellow"	        :	"E",
+	"BrightWhite"	        :	"F",
 	}
 # /WinNT_Colours
 
@@ -859,7 +859,7 @@ def Intro():
 	#	instead of let the way it is currently control how we handle graphics
 	# AUTHORIZE THE CLIENT
 	if(AuthorizeUser()):
-		os.system('color 0a')
+		os.system('color 0b')
 		# AuthorizeUser() will return True if passed, so Intro() will return True also
 		wait(1)
 		br(3)
@@ -906,6 +906,7 @@ def PrintHelp():
 	CenteredText("/N /sniffer : will sniff and monitor your network on your device")
 	CenteredText("/B /blocker : Will start IP and PORT blocking in and out for firewall")
 	CenteredText("/P /lockpick : will start LockPick")
+	CenteredText("/U /utility : will start Rescource-Monitor")
 	#CenteredText("/L /load   : Load configurations for scripts")
 	print("")
 	CenteredText("/E /edit   : Edit configurations for scripts")
@@ -941,6 +942,8 @@ def MainMenu(CONFIG=CONFIG):
                 "/blocker": "Blocker.py",
                 "/P": "LockPick.py",
                 "/lockpick": "LockPick.py",
+                "/U": "Rescource-Monitor.py",
+                "/utility": "Rescource-Monitor.py",
 		}
 	#
 	# ROUTINES which get launched as ShadowConfig functions
